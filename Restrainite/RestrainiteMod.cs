@@ -70,6 +70,8 @@ public class RestrainiteMod : ResoniteMod
     private static void InitializePatches()
     {
         MaximumVoiceMode.Initialize();
+        ForceBabyTalk.Initialize();
+        ForceEquipAvatar.Initialize();
         PreventGrabbing.Initialize();
         PreventOpeningContextMenu.Initialize();
         PreventOpeningDash.Initialize();

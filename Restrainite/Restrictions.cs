@@ -22,6 +22,8 @@ internal static class Restrictions
     internal static readonly DisableVrTrackers DisableVrTrackers = new();
     internal static readonly EnforceSelectiveHearing EnforceSelectiveHearing = new();
     internal static readonly EnforceWhispering EnforceWhispering = new();
+    internal static readonly ForceBabyTalk ForceBabyTalk = new();
+    internal static readonly ForceEquipAvatar ForceEquipAvatar = new();
     internal static readonly HearingVolume HearingVolume = new();
     internal static readonly HideContextMenuItems HideContextMenuItems = new();
     internal static readonly HideDashScreens HideDashScreens = new();
@@ -68,6 +70,7 @@ internal static class Restrictions
     internal static readonly ShowUserAvatars ShowUserAvatars = new();
     internal static readonly SpeakingVolume SpeakingVolume = new();
     internal static readonly TrackerMovementSpeed TrackerMovementSpeed = new();
+    internal static readonly VoiceQuality VoiceQuality = new();
 
     static Restrictions()
     {
